@@ -23,7 +23,7 @@ class Config(object):
     # Get your own proxy from https://github.com/rg3/youtube-dl/issues/1091#issuecomment-230163061
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
     # LOGGER INFO CHANNEL ID
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -100))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", -1002274994264))
     # Give Admin id in this field 
     LAZY_DEVELOPER = set(int(x) for x in os.environ.get("LAZY_ADMIN", "").split())
     # maximum message length in Telegram
